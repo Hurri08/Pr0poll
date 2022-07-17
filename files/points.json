@@ -1,0 +1,152 @@
+{
+    "met": {
+        "met" : "40*math.pow(1.5,X)",
+        "kris" : "10*math.pow(1.5,X)",
+        "deut" : "0",
+        "voll" : "Metallmine"
+    },
+    "kris": {
+        "met" : "30*math.pow(1.6,X)",
+        "kris" : "15*math.pow(1.6,X)",
+        "deut" : "0",
+        "voll" : "Kristallmine"
+    },
+    "deut": {
+        "met" : "150*math.pow(1.5,X)",
+        "kris" : "50*math.pow(1.5,X)",
+        "deut" : "0",
+        "voll" : "Deuteriumsynthetisierer"
+    },
+    "solar": {
+        "met" : "50*math.pow(1.5,X)",
+        "kris" : "20*math.pow(1.5,X)",
+        "deut" : "0",
+        "voll" : "Solarkraftwerk"
+    },
+    "fusion": {
+        "met" : "500*math.pow(1.8,X)",
+        "kris" : "200*math.pow(1.8,X)",
+        "deut" : "100*math.pow(1.8,X)",
+        "voll" : "Fusionskraftwerk"
+    },
+    "metspeicher": {
+        "met" : "math.pow(2,X+2)*250",
+        "kris" : "0",
+        "deut" : "0",
+        "voll" : "Metallspeicher"
+    },
+    "krisspeicher" : {
+        "met" : "math.pow(2,X+2)*250",
+        "kris" : "math.pow(2,X+2)*125",
+        "deut" : "0",
+        "voll" : "Kristallspeicher"
+    },
+    "deutspeicher" : {
+        "met" : "math.pow(2,X+2)*250",
+        "kris" : "math.pow(2,X+2)*250",
+        "deut" : "0",
+        "voll" : "Deuteriumtank"
+    },
+    "robo": {
+        "met" : "math.pow(2,X+1)*100",
+        "kris" : "math.pow(2,X+1)*30",
+        "deut" : "math.pow(2,X+1)*50",
+        "voll" : "Roboterfabrik"
+    },
+    "naniten":{
+        "met" : "500000*math.pow(2,X)",
+        "kris" : "250000*math.pow(2,X)",
+        "deut" : "50000*math.pow(2,X)",
+        "voll" : "Nanitenfabrik"
+    },
+    "schiff": {
+        "met" : "math.pow(2,X+1)*100",
+        "kris" : "math.pow(2,X+1)*50",
+        "deut" : "math.pow(2,X+1)*25",
+        "voll" : "Raumschiffwerft"
+    },
+    "forschung": {
+        "met" : "math.pow(2,X)*100",
+        "kris" : "math.pow(2,X)*200",
+        "deut" : "math.pow(2,X)*100",
+        "voll" : "Forschungslabor"
+    },
+    "spio": {
+        "met" : "100*math.pow(2,X)",
+        "kris" : "500*math.pow(2,X)",
+        "deut" : "100*math.pow(2,X)",
+        "voll" : "Spionagetechnik"
+    },
+    "computer":{
+        "met" : "0",
+        "kris" : "200*math.pow(2,X)",
+        "deut" : "300*math.pow(2,X)",
+        "voll" : "Computertechnik"
+    },
+    "waffen":{
+        "met" : "400*math.pow(2,X)",
+        "kris" : "100*math.pow(2,X)",
+        "deut" : "0",
+        "voll" : "Waffentechnik"
+    },
+    "schild":{
+        "met" : "100*math.pow(2,X)",
+        "kris" : "300*math.pow(2,X)",
+        "deut" : "0",
+        "voll" : "Schildtechnik"
+    },
+    "panzerung":{
+        "met" : "500*math.pow(2,X)",
+        "kris" : "0",
+        "deut" : "0",
+        "voll" : "Raumschiffpanzerung"
+    },
+    "energie":{
+        "met" : "0",
+        "kris" : "400*math.pow(2,X)",
+        "deut" : "200*math.pow(2,X)",
+        "voll" : "Energietechnik"
+    },
+    "hyperraumtechnik":{
+        "met" : "0",
+        "kris" : "2000*math.pow(2,X)",
+        "deut" : "1000*math.pow(2,X)",
+        "voll" : "Hyperraumtechnik"
+    },
+    "verbrennungstriebwerk":{
+        "met" : "200*math.pow(2,X)",
+        "kris" : "0",
+        "deut" : "300*math.pow(2,X)",
+        "voll" : "Verbrennungstriebwerk"
+    },
+    "impulstriebwerk":{
+        "met" : "1000*math.pow(2,X)",
+        "kris" : "2000*math.pow(2,X)",
+        "deut" : "300*math.pow(2,X)",
+        "voll" : "Impulstriebwerk"
+    },
+    "hyperraumantrieb":{
+        "met" : "5000*math.pow(2,X)",
+        "kris" : "10000*math.pow(2,X)",
+        "deut" : "3000*math.pow(2,X)",
+        "voll" : "Hyperraumantrieb"
+    },
+    "laser":{
+        "met" : "100*math.pow(2,X)",
+        "kris" : "50*math.pow(2,X)",
+        "deut" : "0",
+        "voll" : "Lasertechnik"
+    },
+    "ionen":{
+        "met" : "500*math.pow(2,X)",
+        "kris" : "150*math.pow(2,X)",
+        "deut" : "50*math.pow(2,X)",
+        "voll" : "Ionentechnik"
+    },
+    "astro":{
+        "met" : "100*math.floor(0.5+40*math.pow(1.75,X-1))",
+        "kris" : "100*math.floor(0.5+80*math.pow(1.75,X-1))",
+        "deut" : "100*math.floor(0.5+40*math.pow(1.75,X-1))",
+        "voll" : "Astrophysik"
+    }
+}

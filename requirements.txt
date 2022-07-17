@@ -1,0 +1,5 @@
+discord == 1.7.3
+requests == 2.27.1
+beautifulsoup4 == 4.10.0
+quickchart.io == 1.0.1
+python-dotenv == 0.19.2
